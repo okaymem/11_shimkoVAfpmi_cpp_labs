@@ -3,7 +3,7 @@
 int elementOfSum(int i) {
     int element=1;
     for (int k=1; k<=i; k++) {
-        element = element * i;
+        element = element * i; //вычисляем i^i, что является огромным значением, при n=100, и переполняем тип int
     }
     return element;
 } 
