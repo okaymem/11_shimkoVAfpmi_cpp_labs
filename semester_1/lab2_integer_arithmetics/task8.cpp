@@ -14,14 +14,14 @@ int main() {
         std::exit(1);
     }
     for (int i=a; i<=b; i++){
-         bool isEvenNumber=false;
+         bool isPrimeNumber=false;
         for (int k=2; k<i; k++){
             if (i%k==0){
-                isEvenNumber = true;
+                isPrimeNumber = true;
                 break;                
         }
     }
-    if (!isEvenNumber){
+    if (!isPrimeNumber){
         cout<<i<<'\n';
     }
     
