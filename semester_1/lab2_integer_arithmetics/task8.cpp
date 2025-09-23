@@ -14,14 +14,14 @@ int main() {
         std::exit(1);
     }
     for (int i=a; i<=b; i++){
-         bool flag=false;
+         bool isEvenNumber=false;
         for (int k=2; k<i; k++){
             if (i%k==0){
-                flag = true;
+                isEvenNumber = true;
                 break;                
         }
     }
-    if (!flag){
+    if (!isEvenNumber){
         cout<<i<<'\n';
     }
     
