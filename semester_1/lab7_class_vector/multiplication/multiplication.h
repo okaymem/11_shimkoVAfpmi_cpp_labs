@@ -1,7 +1,5 @@
 #pragma once
 
-#include <exception>
+#include <stdexcept>
 
-int64_t Multiply(int32_t a, int32_t b) {
-    throw std::runtime_error("Not implemented :(");
-}
+int64_t Multiply(int32_t a, int32_t b) ;
