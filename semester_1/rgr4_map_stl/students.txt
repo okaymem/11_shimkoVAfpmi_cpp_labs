@@ -1,0 +1,5 @@
+Ivanov I.I. 112 Math 5 Physics 4 CS 5
+Petrov P.P. 2233 Math 3 CS 4 Physics 3
+Sidorov S.S. 35 Math 5 Physics 5 CS 5
+Ivanov I.I. 77777 Math 4 Physics 5 CS 4
+Smirnova A.A. 13245 Math 2 CS 3 PE 2
